@@ -1,0 +1,234 @@
+html, body {
+    image-rendering: pixelated;
+    background-color: rgb(226, 211, 0);
+    margin: 0px;
+    position: relative;
+}
+
+#main {
+    background-color: rgb(29, 29, 29);
+    display: block;
+    position: absolute;
+    margin-top: 50px;
+    top: 700px;
+    left: 50%;
+    translate: -50%;
+    width: 90%;
+    height: 3500px;
+}
+
+#main2 {
+    background-color: rgb(29, 29, 29);
+    display: block;
+    position: absolute;
+    margin-top: 50px;
+    top: 700px;
+    left: 50%;
+    translate: -50%;
+    width: 90%;
+    height: 3500px;
+}
+
+#jslogo {
+    padding: 30% 30% 30% 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+    left: 50%;
+    top: 400px;
+    translate: -50% -50%;
+}
+
+#jslogo1 {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    left: 50%;
+    translate: -50%;
+}
+
+#texts {
+    display: grid;
+    grid-gap: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    color: white;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+
+
+#navbar {
+    background-color: rgb(78, 78, 78);
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    z-index: 1000;
+
+}
+
+
+#home {
+    width: 150px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    translate: -50%;
+    padding: 3px 3px 3px 3px;
+}
+
+
+#logo {
+    width: 75px;
+    
+    margin: 15px;
+}
+
+#logo2 {
+    margin-left: 1px;
+    margin-bottom: 10px;
+    
+    width: 75px;
+}
+
+#Log {
+    color: rgb(53, 53, 53);
+    font-size: 25px;
+    background-color: rgb(94, 94, 94);
+    Border-style: solid;
+    border-color: rgb(102, 102, 102);
+    border-radius: 100px;
+    border-width: 10px;
+    width: 130px;
+    height: 70px;
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#Log:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+#Log:active {
+    background-color: rgb(131, 131, 131);
+}
+
+#Sign {
+    color: rgb(53, 53, 53);
+    font-size: 25px;
+    background-color: rgb(94, 94, 94);
+    border-color: rgb(102, 102, 102);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 100px;
+    width: 130px;
+    height: 70px;
+    position: absolute;
+    top: 8px;
+    right: 180px;
+    cursor: pointer;
+}
+
+#Sign:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+#Sign:active {
+    background-color: rgb(131, 131, 131);
+}
+
+#texteditor {
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    pointer-events: all;
+    width: 50%;
+    height: 500px;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    border: 5px solid #000000;
+    padding: 10px 10px 10px 10px;
+}
+
+#editor {
+    font-family: Verdana;
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    height: 500px;
+    background-color: rgb(34, 34, 34);
+    border: 5px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    padding: 10px 10px 10px 10px;
+}
+
+#output {
+    font-family: Verdana;
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    height: 500px;
+    background-color: rgb(34, 34, 34);
+    border: 5px solid #000000;
+    padding: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+#runButton {
+    font: bold;
+    font-family: Verdana;
+    background-color: rgb(43, 255, 0);
+    border-radius: 25px;
+    border: 10px solid rgba(27, 160, 1, 0.685);
+    margin-top: 10%;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#next {
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    width: 20%;
+    padding: 10px;
+}
+
+#next2 {
+    position: absolute;
+    left: 50%;
+    width: 20%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#prev {
+    position: absolute;
+    right: 50%;
+    width: 20%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#prev2 {
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    width: 20%;
+    padding: 10px;
+}

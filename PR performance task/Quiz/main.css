@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 98vh;
+    background-color: #333333;
+  }
+
+  #quiz-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #question {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .option {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .option:hover {
+    background-color: #f0f0f0;
+  }
+
+  #result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  #navbar {
+    background-color: rgb(78, 78, 78);
+    position: fixed;
+    height: 8%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    z-index: 1000;
+}
+
+
+#logo {
+    width: 75px;
+    
+    margin: 15px;
+}
+
+#logo2 {
+    margin-left: 1px;
+    margin-bottom: 10px;
+    
+    width: 75px;
+}
+
+#home {
+    width: 6%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    translate: -50%;
+}
+
+#Log {
+    color: rgb(53, 53, 53);
+    font-size: 20px;
+    background-color: rgb(94, 94, 94);
+    Border-style: solid;
+    border-color: rgb(102, 102, 102);
+    border-radius: 100px;
+    border-width: 10px;
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#Log:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+#Log:active {
+    background-color: rgb(131, 131, 131);
+}
+
+#Sign {
+    color: rgb(53, 53, 53);
+    font-size: 20px;
+    background-color: rgb(94, 94, 94);
+    border-color: rgb(102, 102, 102);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 100px;
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 8px;
+    right: 200px;
+    cursor: pointer;
+}
+
+#Sign:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+#Sign:active {
+    background-color: rgb(131, 131, 131);
+}

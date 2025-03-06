@@ -1,0 +1,200 @@
+html, body {
+    image-rendering: pixelated;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: Verdana;
+}
+
+#navbar {
+    background-color: rgb(78, 78, 78);
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    z-index: 1000;
+}
+
+
+#logo {
+    width: 75px;
+    
+    margin: 15px;
+}
+
+#logo2 {
+    margin-left: 1px;
+    margin-bottom: 10px;
+    
+    width: 75px;
+}
+
+#Log {
+    color: rgb(53, 53, 53);
+    font-size: 25px;
+    background-color: rgb(94, 94, 94);
+    Border-style: solid;
+    border-color: rgb(102, 102, 102);
+    border-radius: 100px;
+    border-width: 10px;
+    width: 130px;
+    height: 70px;
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#Log:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+#Log:active {
+    background-color: rgb(131, 131, 131);
+}
+
+#Sign {
+    color: rgb(53, 53, 53);
+    font-size: 25px;
+    background-color: rgb(94, 94, 94);
+    border-color: rgb(102, 102, 102);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 100px;
+    width: 130px;
+    height: 70px;
+    position: absolute;
+    top: 8px;
+    right: 180px;
+    cursor: pointer;
+}
+
+#Sign:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+#Sign:active {
+    background-color: rgb(131, 131, 131);
+}
+
+#main {
+    height: 950px;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    margin-bottom: 0px;
+}
+
+#techton {
+    width: 50%;
+    margin-top: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#text2 {
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+    font-size: large;
+}
+
+#text3 {
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+    font-size: 50px;
+}
+
+#JS {
+    background-color: rgb(226, 211, 0);
+    display: block;
+    margin-top: 0px;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+#jslogo {
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    translate: -50% -50%;
+}
+
+#butt {
+    width: 15%;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    translate: -50% -50%;
+}
+
+#texts {
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#CSS {
+    background-color: rgba(0, 26, 255, 0.795);
+    display: block;
+    margin-top: 0px;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+#csslogo {
+    width: 15%;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    translate: -50% -50%;
+}
+
+#HTML {
+    background-color: rgb(255, 136, 0);
+    display: block;
+    margin-top: 0px;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+#htmllogo {
+    width: 15%;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    translate: -50% -50%;
+}
+
+#quiz {
+    background-color: rgb(238, 238, 238);
+    display: block;
+    margin-top: 0px;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+#sandbox {
+    background-color: rgb(248, 214, 90);
+    display: block;
+    margin-top: 0px;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}

@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: Verdana;
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    background-color: rgb(78, 78, 78);
+}
+
+#as {
+    height: 950px;
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+    margin-bottom: 200px;
+}
+
+#logo {
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 10px;
+}
+
+#home {
+    color: rgb(53, 53, 53);
+    font-size: 160%;
+    background-color: rgb(56, 199, 0);
+    Border-style: solid;
+    border-color: rgb(36, 107, 36);
+    border-radius: 100px;
+    border-width: 10px;
+    width: 20%;
+    height: 70px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+#home:hover {
+    background-color: rgb(103, 201, 65);
+    border-color: rgb(58, 112, 58);
+}
+
+#home:active {
+    background-color: rgb(56, 199, 0);
+    border-color: rgb(36, 107, 36);
+}
+
+#Log {
+    color: rgb(53, 53, 53);
+    font-size: 160%;
+    background-color: rgb(94, 94, 94);
+    Border-style: solid;
+    border-color: rgb(102, 102, 102);
+    border-radius: 100px;
+    border-width: 10px;
+    width: 10%;
+    height: 70px;
+    position: absolute;
+    top: 20%;
+    right: 1%;
+    cursor: pointer;
+}
+
+#Log:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+#Log:active {
+    background-color: rgb(131, 131, 131);
+}
+
+#Sign {
+    color: rgb(53, 53, 53);
+    font-size: 160%;
+    background-color: rgb(94, 94, 94);
+    border-color: rgb(102, 102, 102);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 100px;
+    width: 10%;
+    height: 70px;
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    cursor: pointer;
+}
+
+#Sign:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+#Sign:active {
+    background-color: rgb(131, 131, 131);
+}
+
+#aboutus {
+    margin-top: 300px;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#about {
+    font: bolder;
+    font-stretch: ultra-expanded;
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+#texts {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+
+#Logo {
+    width: 20%;
+    margin-left: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+#parapgraphs {
+    
+    font-size: 200%;
+    text-align: justify;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 0%;
+}
+
+ul {
+    font-size: 200%;
+    text-align: left;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 0%;
+}
